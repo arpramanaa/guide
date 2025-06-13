@@ -1,6 +1,3 @@
----
-
-````markdown
 # 🚫 Fail2ban Setup & Configuration
 
 Fail2ban is an intrusion prevention software framework that protects computer servers from brute-force attacks. This guide explains how to install, configure, and customize Fail2ban—especially for securing SSH and custom web login endpoints.
