@@ -127,7 +127,19 @@ Unban IP (if needed):
 ```bash
 sudo fail2ban-client set web-login unbanip 192.0.2.1
 ```
+---
+✅ Whitelist IP
+To prevent specific IP addresses from ever being banned, you can add them to the ignoreip directive.
 
+Example in /etc/fail2ban/jail.local:
+
+```
+[DEFAULT]
+ignoreip = 127.0.0.1/8 ::1 192.168.1.10 203.0.113.99
+```
+You can list multiple IPs separated by a space, CIDR notation is also supported.
+
+💡 Always whitelist your internal IP or jumpbox/bastion server IP to prevent accidental lockouts.
 ---
 
 ## 📁 Directory Overview
