@@ -1,5 +1,3 @@
-Berikut adalah dokumentasi setup dan konfigurasi **Fail2ban** dalam format `README.md` yang cocok untuk ditaruh di GitHub:
-
 ---
 
 ````markdown
@@ -144,20 +142,7 @@ sudo fail2ban-client set web-login unbanip 192.0.2.1
 | `/var/log/nginx/access.log`             | Example log path    |
 
 ---
-
-## 🙌 Contribution
-
-Feel free to fork and customize for your environment. Pull requests are welcome!
-
----
-
 ## 📜 License
 
 MIT License
 
-```
-
----
-
-Kalau kamu mau versi dengan struktur folder (`config/`, `filters/`, `logs/` dll), tinggal bilang aja, nanti saya bikinin skema repo-nya juga.
-```
