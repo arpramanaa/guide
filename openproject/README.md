@@ -14,6 +14,8 @@ Unduh file `OpenProjectXLS_API.xlsm` dari link berikut:
 
 ## ⚙️ 2. Persiapan File
 
+<img width="553" height="414" alt="image" src="https://github.com/user-attachments/assets/f9e55f71-0f17-4f5e-82fc-affb0df22729" />
+
 Setelah file berhasil diunduh:
 
 1. Klik kanan pada file `OpenProjectXLS_API.xlsm` → pilih **Properties**.
@@ -24,16 +26,21 @@ Setelah file berhasil diunduh:
 
 ## 🔐 3. Konfigurasi Koneksi
 
+
+<img width="553" height="414" alt="image" src="https://github.com/user-attachments/assets/60e382a5-ec23-4cce-9a1d-376ad605aaef" />
+
 Buka file `OpenProjectXLS_API.xlsm`, lalu isi field berikut:
 
 - **Instance URL**:  
   Contoh: `https://project.nama_perusahaan.com/`
   
-- **Project**:  
+- **Project**:
+  <img width="417" height="311" alt="image" src="https://github.com/user-attachments/assets/2d6d87f6-402f-4d14-92d4-4a2379ea24aa" />
   Gunakan identifier dari URL project, contoh:  
   Jika URL adalah `https://project.nama_perusahaan.com/projects/it-project`, maka `Project` = `it-project`
 
-- **API Token**:  
+- **API Token**:
+  <img width="442" height="330" alt="image" src="https://github.com/user-attachments/assets/1613098d-11b4-4012-b502-2af65a839b7f" />
   Buat token baru dari OpenProject:
   
   - Klik logo profil (kanan atas) → **Account Settings**
@@ -57,6 +64,7 @@ Jika koneksi berhasil:
 ## 🔁 5. Menu Workpackages
 
 Terdapat 3 fitur utama dalam menu Workpackages:
+<img width="553" height="414" alt="image" src="https://github.com/user-attachments/assets/d5fe3ed8-2b3f-46ad-bbf1-d9da0ca3f06c" />
 
 ### a) **Download Workpackages**
 - Menarik seluruh data workpackages dari project.
@@ -70,6 +78,8 @@ Terdapat 3 fitur utama dalam menu Workpackages:
 ---
 
 ## 🧩 6. Struktur Kolom & Data
+
+<img width="377" height="281" alt="image" src="https://github.com/user-attachments/assets/2303902e-5f1a-4762-89f6-bf9dc8c29b28" />
 
 - Kolom-kolom yang tersedia di sheet `Workpackages` dapat disesuaikan.
 - Lihat sheet `Attributes` untuk mengetahui label dan struktur field yang valid.
