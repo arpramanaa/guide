@@ -8,8 +8,7 @@ Dokumen ini berisi petunjuk lengkap mengenai cara menggunakan file **OpenProject
 
 Unduh file `OpenProjectXLS_API.xlsm` dari link berikut:
 
-> 🔗 **[Download OpenProjectXLS_API.xlsm](#)**  
-> _(Ganti `#` dengan link download asli)_
+> 🔗 **[Download OpenProjectXLS_API.xlsm](https://github.com/arpramanaa/resources/tree/main/openproject)**  
 
 ---
 
@@ -101,12 +100,6 @@ Untuk beralih ke project berbeda:
 4. Untuk mengunggah ulang:
    - Tekan `Ctrl + B`
    - Pilih **Upload/update workpackages**
-
----
-
-## 📝 Lisensi
-
-File ini disediakan untuk penggunaan internal perusahaan. Harap tidak menyebarkan tanpa izin.
 
 ---
 
