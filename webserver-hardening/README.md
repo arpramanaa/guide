@@ -1,7 +1,7 @@
 
 # Security Hardening Guideline
 
-Konfigurasi berikut meningkatkan keamanan web server (Nginx) dengan TLS modern, HTTP security headers, serta resource limiting.
+Konfigurasi berikut adalah contoh security hardening config web server (Nginx) dengan TLS, HTTP security headers, serta resource limiting.
 
 ---
 ## TLS & SSL Hardening
