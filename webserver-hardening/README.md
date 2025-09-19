@@ -4,8 +4,8 @@
 Konfigurasi berikut meningkatkan keamanan web server (Nginx) dengan TLS modern, HTTP security headers, serta resource limiting.
 
 ---
-```bash
 ## TLS & SSL Hardening
+```bash
 ssl_protocols TLSv1.2 TLSv1.3;
 ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256';
 ssl_prefer_server_ciphers on;
@@ -20,8 +20,8 @@ ssl_stapling_verify on;
 - OCSP Stapling memastikan sertifikat valid  
 
 ---
-```bash
 ## HTTP Security Headers
+```bash
 add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
 add_header X-Frame-Options "SAMEORIGIN";
 add_header X-Content-Type-Options "nosniff";
@@ -35,8 +35,8 @@ add_header Content-Security-Policy "default-src 'self'; script-src 'self'";
 - CSP: Hanya izinkan resource dari origin sendiri  
 
 ---
-```bash
 ## Server Information Disclosure
+```bash
 server_tokens off;
 autoindex off;
 ```
@@ -44,8 +44,8 @@ autoindex off;
 - Nonaktifkan directory listing  
 
 ---
-```bash
 ## Request & Resource Limiting
+```bash
 client_max_body_size 10M;
 limit_req_zone $binary_remote_addr zone=one:10m rate=10r/s;
 limit_req zone=one burst=20 nodelay;
@@ -54,8 +54,8 @@ limit_req zone=one burst=20 nodelay;
 - Batasi request 10/s per IP, burst max 20  
 
 ---
-```bash
 ## Cookie Security
+```bash
 proxy_cookie_path / "/; Secure; HttpOnly; SameSite=Strict";
 ```
 - Secure: hanya dikirim via HTTPS  
